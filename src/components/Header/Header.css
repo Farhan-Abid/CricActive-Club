@@ -1,0 +1,12 @@
+.header{
+    background-color: rgb(167, 223, 167);
+    height: 80px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-txt{
+    margin-left: 600px;
+}
