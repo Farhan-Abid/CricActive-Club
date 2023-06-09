@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Detail.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
-const Detail = ({list}) => {
+const Detail = (props) => {
+    const {list} = props;
+
+    let total = 0;
+    for(const training of list){
+        total = total + training.Time;
+    }
+
+    const [breakText, setBreakText] = useState('');
+
+    const handleBreakClick = (text) => {
+        setBreakText(text);
+    };
+
     return (
         <div className='detail-container'>
             <h4>Shah Farhan Abid</h4>
@@ -28,22 +41,22 @@ const Detail = ({list}) => {
             <h4>Add A Break</h4>
             <div className='detail-break'>
             <>
-                <p>10s</p>
+                <button onClick={() => handleBreakClick('10s')}>10s</button>
                 </>
                 <>
-                <p>20s</p>
+                <button onClick={() => handleBreakClick('20s')}>20s</button>
                 </>
                 <>
-                <p>30s</p>
+                <button onClick={() => handleBreakClick('30s')}>30s</button>
                 </>
                 <>
-                <p>40s</p>
+                <button onClick={() => handleBreakClick('40s')}>40s</button>
                 </>
             </div>
             <h4>Exercise Details</h4>
             <div>
-                <p>Exercise Time: {list.length}</p>
-                <p>Break Time:</p>
+                <p>Exercise Time: {total} S</p>
+                <p>Break Time: {breakText}</p>
             </div>
         </div>
     );

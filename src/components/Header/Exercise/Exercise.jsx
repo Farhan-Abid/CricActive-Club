@@ -14,7 +14,7 @@ const Exercise = () => {
     }, []);
 
     const handleAddToList = (training) => {
-        console.log(training);
+        // console.log(training);
         const newList = [...list,training];
         setList(newList);
     }

@@ -5,7 +5,7 @@
       "name": "Jennie Case",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 20
     },
     {
       "id": "6480b5a618aef53548fc9df7",
@@ -13,7 +13,7 @@
       "name": "Perkins Mcmillan",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 30
     },
     {
       "id": "6480b5a61e57d9af82ead970",
@@ -21,7 +21,7 @@
       "name": "Lacy Hobbs",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 40
     },
     {
       "id": "6480b5a6b5bb2afee14b4361",
@@ -29,7 +29,7 @@
       "name": "Kim Holt",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 30
     },
     {
       "id": "6480b5a633f685ec9ec1e221",
@@ -37,7 +37,7 @@
       "name": "Nadia Johnson",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 60
     },
     {
       "id": "6480b5a6da0a113341b8454e",
@@ -45,7 +45,7 @@
       "name": "Nettie Davenport",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 20
     },
     {
       "id": "6480b5a6180dff10566ee1c2",
@@ -53,7 +53,7 @@
       "name": "Gillespie Boyle",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 50
     },
     {
       "id": "6480b5a6072e6f589fcea9b8",
@@ -61,7 +61,7 @@
       "name": "Lizzie Leonard",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 10
     },
     {
       "id": "6480b5a6bbeabb680af55a22",
@@ -69,6 +69,6 @@
       "name": "Gayle Kane",
       "comment": "Id fugiat incididunt ad eu amet id cupidatat occaecat labore proident laboris aute. Minim in mollit proident nisi. Veniam officia ullamco magna sint magna proident fugiat.",
       "Age" : "20-25",
-      "Time" : "30s"
+      "Time" : 30
     }
   ]
