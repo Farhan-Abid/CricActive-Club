@@ -9,8 +9,3 @@
     grid-template-columns: repeat(3 ,1fr);
 }
 
-
-.details-container{
-  position: sticky;
-  top: 0;
-}

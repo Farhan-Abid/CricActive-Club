@@ -29,7 +29,7 @@ const Exercise = () => {
                  ></Training>)
                 }
             </div>
-            <div className='details-container' >
+            <div >
                 <Detail list={list}></Detail>
             
             </div>

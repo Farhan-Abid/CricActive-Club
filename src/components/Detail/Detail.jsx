@@ -54,10 +54,11 @@ const Detail = (props) => {
                 </>
             </div>
             <h4>Exercise Details</h4>
-            <div>
+            <div className='exercise-details'>
                 <p>Exercise Time: {total} S</p>
                 <p>Break Time: {breakText}</p>
             </div>
+            <button className='activity-btn'>Activity Completed</button>
         </div>
     );
 };
