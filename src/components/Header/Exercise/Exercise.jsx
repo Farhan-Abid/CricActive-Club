@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Exercise.css';
 import Training from '../../Training/Training';
-import images from '../../../images/dp.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import Detail from '../../Detail/Detail';
 
 const Exercise = () => {
     const [trainings,setTrainings] = useState([]);
@@ -32,46 +30,8 @@ const Exercise = () => {
                 }
             </div>
             <div className='details-container' >
-            <img src={images} alt="" />
-            <h4>Shah Farhan Abid</h4>
-            <div className='details-location'>
-            <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
-            <p>Chittagong,Bangladesh</p>
-            </div>
-            <div className='details-weight'>
-                <>
-                <p>75 KG</p>
-                <p>Weight</p>
-                </>
-                <>
-                <p>6.5 </p>
-                <p>Height</p>
-                </>
-                <>
-                <p>25yrs </p>
-                <p>Age</p>
-                </>
-            </div>
-            <h4>Add A Break</h4>
-            <div className='details-break'>
-            <>
-                <p>10s</p>
-                </>
-                <>
-                <p>20s</p>
-                </>
-                <>
-                <p>30s</p>
-                </>
-                <>
-                <p>40s</p>
-                </>
-            </div>
-            <h4>Exercise Details</h4>
-            <div>
-                <p>Exercise Time: {list.length}</p>
-                <p>Break Time:</p>
-            </div>
+                <Detail list={list}></Detail>
+            
             </div>
         </div>
     );

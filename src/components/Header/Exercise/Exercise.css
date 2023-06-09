@@ -9,52 +9,6 @@
     grid-template-columns: repeat(3 ,1fr);
 }
 
-.details-container img{
-    height: 200px;
-    width: 200px;
-    margin-top: 20px;
-    margin-left: 50px;
-}
-
-.details-container .details-location{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: rgb(167, 223, 167);
-    border: none;
-    padding: 0;
-  margin: 0;
-    /* border: 2px solid gray;
-    border-radius: 7px; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.details-container .details-weight{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: rgb(167, 223, 167);
-    border: none;
-    padding: 0;
-  margin: 0;
-    /* border: 2px solid gray;
-    border-radius: 5px; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.details-container .details-break{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    background-color: rgb(167, 223, 167);
-    border: none;
-    padding: 0;
-  margin: 0;
-    /* border: 2px solid gray;
-    border-radius: 5px; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
 
 .details-container{
   position: sticky;
