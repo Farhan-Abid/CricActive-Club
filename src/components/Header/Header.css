@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(167, 223, 167);
+    background-color:  #8dc6ff;
     height: 80px;
     width: 1366px;
     display: flex;
@@ -9,4 +9,5 @@
 
 .header-txt{
     margin-left: 600px;
+    font-family: "Times New Roman", Times, serif;
 }

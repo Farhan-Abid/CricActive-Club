@@ -3,6 +3,7 @@ import './Detail.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
+
 const Detail = (props) => {
     const {list} = props;
 
@@ -26,16 +27,13 @@ const Detail = (props) => {
             </div>
             <div className='detail-weight'>
                 <>
-                <p>75 KG</p>
-                <p>Weight</p>
+                <p>75 KG,Weight</p>
                 </>
                 <>
-                <p>6.5 </p>
-                <p>Height</p>
+                <p>6.5,Height</p>
                 </>
                 <>
-                <p>25yrs </p>
-                <p>Age</p>
+                <p>25yrs,Age</p>
                 </>
             </div>
             <h4>Add A Break</h4>
@@ -59,6 +57,7 @@ const Detail = (props) => {
                 <p>Break Time: {breakText}</p>
             </div>
             <button className='activity-btn'>Activity Completed</button>
+            
         </div>
     );
 };

@@ -9,10 +9,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: rgb(167, 223, 167);
+    background-color:  #8dc6ff;
     border: none;
-    padding: 0;
+    padding-left: 30px;
   margin: 0;
+  border-radius: 5px;
     /* border: 2px solid gray;
     border-radius: 7px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -22,11 +23,16 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: rgb(167, 223, 167);
+    background-color:  #8dc6ff;
     border: none;
-    padding: 0;
-    margin: 0;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.detail-weight p{
+    font-weight: bolder;
 }
 
 .detail-container .detail-break{
@@ -34,8 +40,9 @@
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background-color: rgb(167, 223, 167);
+    background-color:  #8dc6ff;
     border: none;
+    border-radius: 5px;
     padding: 0;
     margin: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -46,12 +53,27 @@
     top: 0;
   }
 
+  .detail-container h4{
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-left: 55px;
+  }
+
+  .detail-container p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .exercise-details{
-    background-color: rgb(167, 223, 167);
+    background-color:  #8dc6ff;
     border: none;
+    border-radius: 5px;
     padding: 0;
     margin: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-details p{
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .activity-btn{
@@ -60,5 +82,5 @@
   padding: 0;
   margin: 0;
   border: none;
-  background-color: rgb(167, 223, 167);;
+  background-color:  #8dc6ff;
 }

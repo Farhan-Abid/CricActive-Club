@@ -9,8 +9,10 @@ const Training = (props) => {
             <img className='training-img' src={picture} alt="" />
             <h3>{name}</h3>
             <p><small>{comment}</small></p>
+            <div className='training-paragraph'>
             <p>For Age: {Age}</p>
             <p>Time Required: {Time}</p>
+            </div>
             <button onClick={() => handleAddToList(training)} className='btn-cart'>
                 <p>Add To List</p>
             </button>
