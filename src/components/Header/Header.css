@@ -4,10 +4,12 @@
     width: 1366px;
     display: flex;
     align-items: center;
+    padding-left: 600px;
+    font-family: "Times New Roman", Times, serif;
+    gap: 10px
     
 }
 
-.header-txt{
-    margin-left: 600px;
-    font-family: "Times New Roman", Times, serif;
+.header .icon{
+    height: 30px;
 }

@@ -1,14 +1,15 @@
 import React from 'react';
 import './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStopwatch20 } from '@fortawesome/free-solid-svg-icons';
 
 
 const Header = () => {
     return (
-      <div>
          <nav className='header'>
-            <h2 className='header-txt'>CricActive Club</h2>
+         <FontAwesomeIcon className='icon' icon={faStopwatch20}></FontAwesomeIcon>
+            <h2>CricActive Club</h2>
          </nav>
-      </div>
     );
 };
 
